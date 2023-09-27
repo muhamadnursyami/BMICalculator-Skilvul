@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIM-CALCULATOR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="card-form">
+      <div class="container">
+        <h2>Check your BMI</h2>
+        <p>Enter your weight and height below to check your BMI results</p>
+
+        <form>
+          <label id="text-weight">Put your weight in here (KG)</label>
+          <input id="weight" type="number" />
+          <label id="text-height">And your height in here (CM)</label>
+          <input id="height" type="number" />
+          <button id="submit-form" type="submit">Calculate BMI</button>
+        </form>
+        <div id="result">
+          Your BMI is <span id="total"></span> which means You are
+          <span id="categories"></span>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
