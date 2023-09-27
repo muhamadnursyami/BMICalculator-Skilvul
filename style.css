@@ -1,14 +1,22 @@
 * {
   font-family: "Poppins", sans-serif;
+  
+  
+}
+body {
+    background: rgb(167,77,245);
+  background: linear-gradient(130deg, rgba(167,77,245,1) 31%, rgba(254,134,243,1) 100%);
+  color: rgb(83, 33, 97);
 }
 #card-form {
   margin-right: auto;
   margin-left: auto;
   justify-items: center;
   margin-top: 50px;
+  margin-bottom: 100px;
   width: 500px;
 
-  /* background-color: aquamarine; */
+ background-color: rgb(237, 172, 255);
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -32,12 +40,14 @@ form {
   flex-direction: column;
 }
 #weight {
+    background-color:rgba(255, 255, 255, 0.877) ;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  border: 2px solid rgb(219, 218, 218);
+  border: 2px solid rgb(188, 146, 255);
   outline: none;
   border-radius: 5px;
+  color: rgb(83, 33, 97);
 }
 #weight:focus {
   outline: none;
@@ -57,11 +67,13 @@ form {
   font-size: 14px;
 }
 #height {
+    color: rgb(83, 33, 97);
+    background-color:rgba(255, 255, 255, 0.877) ;
   outline: none;
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 40px;
-  border: 2px solid rgb(219, 218, 218);
+  border: 2px solid rgb(188, 146, 255);
   border-radius: 5px;
 }
 
@@ -69,6 +81,7 @@ form {
   font-size: 14px;
 }
 #submit-form {
+    margin: 0 auto;
   cursor: pointer;
   display: block;
   width: 30%;
@@ -90,3 +103,11 @@ form {
 #categories {
   font-weight: bold;
 }
+
+#warning {
+    
+color: rgb(252, 16, 16);
+  margin: 40px 0px;
+  text-align: center;
+}
+
